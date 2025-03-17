@@ -7,6 +7,7 @@
     border-top-right-radius: 16px;
     font-size: 10px;
 }
+
 .check-icon{
     /* background-color: orange; */
     width: 1.5%;
@@ -56,4 +57,143 @@
 .navigations a{
     color: black; 
     text-decoration: none;
+}
+.moving-day{
+    position: relative;
+    text-align: center;
+}
+.moving-day img{
+    align-items: center;
+    width: 100%;
+    /* height: 90vh; */
+    height: auto;
+    
+}
+.moving-family{
+    position: absolute;
+    top: 50%;
+  left: 40%;
+}
+.smooth-moving{
+    font-size: 15px;
+}
+.makeitEasy{
+    font-size: 60px;
+    width: 65%;
+    font-weight: bold;
+    color: white;
+}
+.get-started-button{
+    padding: 15px;
+    width: 10%;
+    background-color: #f1b52e;
+    border: none;
+    left: 10%;
+    position: absolute;
+    top: 65%;
+  left: 50%;
+
+}
+.about-Riaad{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    margin-top: 5%; 
+    margin-left: 10%;
+   
+}
+.items-image{
+    width: 70%;
+}
+.movingboxes{
+    width: 60%;
+}
+.riaad-2007{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-top: 5%;
+}
+.foundation-details{
+    width: 40%;
+}
+.Easy-fun{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 40%;
+}
+.since-foundation{
+    margin-top: 15%;
+}
+.logos{
+    display: flex;
+    justify-content:center;
+    margin-top: 3%;
+}
+.logo-container{
+    display: flex;
+    /* width: 30%; */
+    margin-top: 5%;
+}
+.services{
+    text-align: center;
+    margin-top: 5%;
+}
+.service-kinds{
+    /* padding: 20px;  padding: 30px; border-radius: 5%; */
+   /* align-content: center;
+   /* tex */ 
+   text-align: center;
+   
+}
+.service-kinds figcaption{
+    margin-top: 13%;
+}
+.all-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lorem{
+    align-self: center;
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.service-img-container img{
+    width: 10%;
+    padding: 19px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.service-storage{
+    text-align: center;
+    background-color: blue;
+    width: 50%;
+    height: 90%;
+    color: white;
+    
+}
+.service-storage figcaption{
+    margin-top: 20%;
+}
+.storage-img-container figcaption{
+    /* background-color: blue; */
+    /* margin-top: 15%; */
+}
+.storage-img-container img{
+    width: 20%;
+    padding: 19px;
+    border-radius: 50%;
+}
+#play-icon{
+    color: white;
+    padding: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.video-section{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    /* display: flex; */
 }
