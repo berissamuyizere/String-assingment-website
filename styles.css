@@ -286,13 +286,14 @@
     margin-left: 10%;
 }
 .moving-couple img{
-    width: 90%
+    width: 90%;
+    margin-top: 12%;
 }
 
 .testimonials{
     background-color: rgb(246,246,246);
     /* border: 1px solid black; */
-    height: 700px;
+    height: 500px;
     margin-top: 5%;
 }
 .testimonial-container{
@@ -313,12 +314,28 @@
     background-color: #527bbf;
     padding: 15px;
 }
+.booking{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
 form{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 9fr;
     background-color: #4f7bc0;
+    width: 80%;
+  
 }
-
+.send-request-button{
+    padding: 10px;
+    background-color: #f1b32e;
+    border: none;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+form label{
+    color: white;
+}
 .image-container{
     padding: 5vh;
     height: 30vh;
@@ -398,7 +415,20 @@ footer p{
     text-align: center;
 }
 .book-now{
-    background-color: aquamarine;
+    background-color: #f1b32e;
+    text-align: center;
+}
+.book-now p{
+    color: white;
+}
+.customer-img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+a{
+    color: #f1b32e;
+    font-size: 12px;
 }
 
 
