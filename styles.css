@@ -313,6 +313,12 @@
     background-color: #527bbf;
     padding: 15px;
 }
+form{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #4f7bc0;
+}
+
 .image-container{
     padding: 5vh;
     height: 30vh;
@@ -321,6 +327,13 @@
 }
 .image-container i{
     background: white;
+}
+.form-data{
+    margin-top: 2%;
+}
+
+.form-data input{
+    padding: 10px;
 }
 .updates{
     margin: 20vh;
@@ -356,10 +369,12 @@
     position: relative;width: 100%;
 }
 .bottom-image-container img{
-    width: 100%; height: 100%;
+    width: 30vh; height: 40vh;
 }
 .comment{
     position: absolute;top: 0;left: 0;
+    color: white;
+    margin-top: 40%;
 }
 .reviews{
     width: 100%;height: 20vh;background-color: #F9B42E;display: flex;justify-content: space-around;align-items: center;
@@ -371,7 +386,7 @@
     height: 5vh;border: none;background-color: rgb(46,44,42);color: white;width: 12%;padding: 2.5vh;text-align: center;padding-bottom: 4vh;
 }
 footer{
-    height:70vh;background-color: rgb(46,44,42); width: 100%;
+   background-color: rgb(46,44,42); ;
 }
 .top-footer{
     display: flex;
@@ -381,6 +396,9 @@ footer{
 }
 footer p{
     text-align: center;
+}
+.book-now{
+    background-color: aquamarine;
 }
 
 
