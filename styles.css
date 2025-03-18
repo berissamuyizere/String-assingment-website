@@ -406,7 +406,10 @@ footer{
    background-color: rgb(46,44,42); ;
 }
 .top-footer{
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
 }
 .bottom-footer{
     color: rgb(92, 92, 92);
@@ -429,6 +432,15 @@ footer p{
 a{
     color: #f1b32e;
     font-size: 12px;
+}
+.social-media{
+    color: white;
+}
+#social-media-dove{
+    color: #f1b32e;
+}
+.foooter-copyright{
+    color: white;
 }
 
 
