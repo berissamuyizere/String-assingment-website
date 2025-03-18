@@ -189,11 +189,98 @@
     padding: 15px;
     background-color: yellow;
     border-radius: 50%;
+    margin-bottom: 100%;
+    
 }
 .video-section{
     display: flex;
     justify-content: center;
+    /* gap: 20%; */
+    margin-top: 10%;
+    background-color: blueviolet;
 }
 .video{
-    /* display: flex; */
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.video img{
+    display: flex;
+    position: relative;
+    width: 15vh;
+    height: 13vh;
+}
+.video i{
+    color: white;
+    padding: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -308vh;
+    left: 120vh;
+
+     
+}
+.helping{
+    font-size: larger;
+    font-weight: bold;
+}
+.question{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.trusted{
+    /* margin-top: 10%; */
+    background-color: blue;
+    width: 40vh;
+
+}
+.trusted img{
+    width: 35vh;
+    position: relative;
+}
+.link-to-riaad{
+    background-color: white;
+    width: 13%;
+    position: absolute;
+    bottom: -345vh;
+    margin-left: 20px;
+}
+#check{
+    background-color: #f1b52e;
+    padding: 12px;
+    border-radius: 60%;
+}
+.achievements{
+    display: grid;
+    grid-template-columns: 0fr 0.5fr;
+    gap: 10px;
+    margin-top: 2%;
+}
+.achievements i{
+    font-size: 20px;
+    color: white;
+}
+.trust-riaad{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 10%;
+    /* margin: auto; */
+    margin-left: 10%;
+}
+.book-onlone{
+   text-align: center;
+}
+#pray-icon{
+    color: white;
+    padding: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    /* margin-bottom: 100%; */
+    
+}
+.moving-couple img{
+    width: 100%;
 }
