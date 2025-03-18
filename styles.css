@@ -286,20 +286,38 @@
     margin-left: 10%;
 }
 .moving-couple img{
-    width: 190vh;
-    height: 90vh;
+    width: 90%
 }
 
 .testimonials{
-    background-color: rgb(246,246,246);border: 1px solid black;height: 700px;
+    background-color: rgb(246,246,246);
+    /* border: 1px solid black; */
+    height: 700px;
+    margin-top: 5%;
 }
 .testimonial-container{
+    text-align: center;
+}
+#quote{
+    background-color:  #527bbf;
+    border-radius: 50%;
 }
 .images-container{
-    display: flex;justify-content: center;gap: 4vh;
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+}
+.image-container i{
+    /* align-self: center; */
+    margin-left: 40%;
+    background-color: #527bbf;
+    padding: 15px;
 }
 .image-container{
-    padding: 5vh;height: 30vh;background-color: white;width: 27vh;
+    padding: 5vh;
+    height: 30vh;
+    background-color: white;width: 27vh;
+    text-align: center;
 }
 .image-container i{
     background: white;
