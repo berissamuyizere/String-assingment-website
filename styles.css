@@ -197,7 +197,7 @@
     justify-content: center;
     /* gap: 20%; */
     margin-top: 10%;
-    background-color: blueviolet;
+    gap: 10%;
 }
 .video{
     width: 40%;
@@ -217,7 +217,7 @@
     border-radius: 50%;
     position: absolute;
     bottom: -308vh;
-    left: 120vh;
+    left: 129vh;
 
      
 }
